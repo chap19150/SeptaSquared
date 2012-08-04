@@ -1,0 +1,2 @@
+serviceClass: com.chapslife.septasquare.client.GreetingService
+path: B102BB31E29E3C5D0B9A4F574328D94C.gwt.rpc

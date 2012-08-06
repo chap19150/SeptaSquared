@@ -15,6 +15,14 @@
     <servlet-name>IndexServlet</servlet-name>
     <servlet-class>com.chapslife.septasquare.push.IndexServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>BSLAlerts</servlet-name>
+    <servlet-class>com.chapslife.septasquare.alerts.BSLAlerts</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MFLAlerts</servlet-name>
+    <servlet-class>com.chapslife.septasquare.alerts.MFLAlerts</servlet-class>
+  </servlet>
 	<servlet-mapping>
 		<servlet-name>GetHereNow</servlet-name>
 		<url-pattern>/herenow</url-pattern>
@@ -30,6 +38,14 @@
   <servlet-mapping>
     <servlet-name>IndexServlet</servlet-name>
     <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BSLAlerts</servlet-name>
+    <url-pattern>/bsl_alerts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MFLAlerts</servlet-name>
+    <url-pattern>/mfl_alerts</url-pattern>
   </servlet-mapping>
   <servlet>
     <servlet-name>SystemServiceServlet</servlet-name>

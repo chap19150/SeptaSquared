@@ -21,5 +21,6 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/signpost-commonshttp4-1.2.1.2.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/signpost-core-1.2.1.2.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/signpost-jetty6-1.2.1.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gson-2.2.2.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

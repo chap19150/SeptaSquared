@@ -1,0 +1,8 @@
+<backends>
+<backend name="push">
+<class>B8</class>
+<options>
+<dynamic>true</dynamic>
+</options>
+</backend>
+</backends>
